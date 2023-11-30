@@ -1,0 +1,55 @@
+h1{
+    color: indigo;
+}
+
+p{
+    background-color: aqua;
+}
+
+h2 ~ p{
+    background-color: crimson;
+}
+h2 + p{
+    background-color: fuchsia;
+}
+*{
+    border-right: 5px dashed green;
+    border-left: 5px dashed black;
+}
+
+ul li{
+    margin-top: 30px;
+}
+ul :nth-child(even){
+    border: 10px dashed sandybrown;
+}
+ul :nth-child(odd){
+    border: 10px dashed navy;
+}
+ul :nth-child(2n+5){
+    border: 10px dotted hotpink;
+}
+ul :first-child{
+    border: 10px double violet;
+}
+ul :last-child{
+    border: 10px double violet;
+}
+ul li{
+    border: 10px double green;
+}
+/* ul>:first-child, ul>:last-child{
+    border: 10px dotted violet;
+} */
+/* ul :nth-child(2n+2){
+    border: 10px black;
+} ;*/
+li:first-of-type{
+    background-color: khaki;
+}
+li:last-of-type{
+    background-color: chartreuse;
+}
+li:nth-of-type(2n+1){
+    background-color: aquamarine;
+}

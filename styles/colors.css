@@ -1,0 +1,43 @@
+section:first-of-type{
+    /* background: linear-gradient(60deg, #3c9, #00f); */
+    background: linear-gradient(90deg, #3c9 70%, #00f 70%,blue 85%, red 85%);
+    background: linear-gradient(90deg, #080 33%, #fff 33%,rgb(255, 255, 255) 67%, rgb(0, 128, 0) 67%);
+    
+    background-image: linear-gradient(to top right, yellow 45%, crimson 45%);
+}
+
+section:nth-of-type(2){
+    background: radial-gradient(circle, crimson 15%, violet 15% ); 
+}
+
+section:last-of-type{
+    color: transparent;
+    background: conic-gradient(
+        purple 15%,
+        khaki 15%,
+        khaki 30%,
+        violet 30%,
+        violet 45%,
+        fuchsia 45%,
+        fuchsia 60%,
+        tomato 60%,
+        tomato 75%,
+        skyblue 75%,
+        skyblue 90%,
+        blue 90%,
+        blue 99%
+    );
+    background-clip: text;
+}
+
+aside{
+    background: repeating-linear-gradient(30deg, red 13%, violet 18%);
+}
+/* p{
+    color: #f0f;
+    background-color: rgb(199, 145, 29); 
+    background-color: rgba(20, 15, 131, 0.642);
+    color: rgb(255,255,0);
+    color: rgb(255, 255, 0);
+    color: #ff0;
+} */
