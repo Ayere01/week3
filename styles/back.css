@@ -1,0 +1,34 @@
+body>:first-child{
+    background-image: url(../media/brooke-lark-1Rm9GLHV0UA-unsplash.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+body>:nth-child(2){
+    background-image: url(../media/chad-montano-eeqbbemH9-c-unsplash.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body>:nth-child(3){
+    background-image: url(../media/love.png), url(../media/circ.png), url(../media/tri.png), linear-gradient(to left, purple 20%, gold 20%);
+    background-size: 100px, 70px, 50px, 20px;
+    background-repeat: repeat-y, repeat-x, no-repeat, repeat;
+    background-position: top left, center, bottom right;
+}
+
+body>:nth-child(4){
+    background-image: url(../media/tri.png), url(../media/tri.png), url(../media/tri.png), url(../media/tri.png);
+    background-size: 100px, 40px;
+    background-repeat: no-repeat;
+    background-position: 20px 30px, 50px 100px, 100px 30px, 130px 100px
+}
+
+body>:nth-child(5){
+    background: red;
+    background-image: url(../media/star.png), url(../media/star.png), url(../media/star.png), url(../media/star.png), url(../media/star.png);
+    background-size: 100px, 15px, 15px, 15px, 15px;
+    background-repeat: no-repeat;
+    background-position: 20px 40px, 130px 25px, 160px 60px, 160px 100px, 130px 130px ;
+}
